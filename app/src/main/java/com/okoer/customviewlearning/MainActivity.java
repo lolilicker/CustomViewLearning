@@ -16,4 +16,7 @@ public class MainActivity extends AppCompatActivity {
     public void showRadar(View view) {
         startActivity(new Intent(this, RadarActivity.class));
     }
+
+    public void showPianKe(View view){startActivity(new Intent(this,PianKeActivity.class));}
+
 }
