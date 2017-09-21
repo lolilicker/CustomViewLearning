@@ -17,6 +17,7 @@
         </activity>
         <activity android:name="com.okoer.customviewlearning.RadarActivity" />
         <activity android:name=".MiClockActivity" />
+        <activity android:name=".DraggableListActivity" />
     </application>
 
 </manifest>
