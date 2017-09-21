@@ -16,4 +16,8 @@ public class MainActivity extends AppCompatActivity {
     public void showRadar(View view) {
         startActivity(new Intent(this, RadarActivity.class));
     }
+
+    public void showMiClick(View view){
+        startActivity(new Intent(this,MiClockActivity.class));
+    }
 }
